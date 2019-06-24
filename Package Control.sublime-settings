@@ -1,0 +1,45 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"CodeFormatter",
+		"Color Highlighter",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"CTags",
+		"DocBlockr",
+		"Emmet",
+		"FileDiffs",
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"LaTeXTools",
+		"MarkdownEditing",
+		"MarkdownLivePreview",
+		"MarkdownPreview",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"ReadmePlease",
+		"SideBarEnhancements",
+		"SublimeAStyleFormatter",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-htmlhint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeREPL",
+		"SublimeTmpl",
+		"Table Editor",
+		"Terminal",
+		"TrailingSpaces",
+		"View In Browser"
+	]
+}

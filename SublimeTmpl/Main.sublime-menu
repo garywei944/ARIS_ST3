@@ -1,0 +1,23 @@
+[{
+    "id": "file",
+    "children": [{
+        "id": "sublimetmpl",
+        "caption": "New File (SublimeTmpl)",
+        "children": [{
+            "id": "c++",
+            "caption": "C++",
+            "command": "sublime_tmpl",
+            "args": {
+                "type": "c++"
+            }
+        }, {
+            "id": "java",
+            "caption": "Java",
+            "command": "sublime_tmpl",
+            "args": {
+                "type": "java"
+            }
+        }]
+    }]
+
+}]

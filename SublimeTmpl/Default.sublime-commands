@@ -1,0 +1,13 @@
+[{
+    "caption": "Tmpl: Create c++",
+    "command": "sublime_tmpl",
+    "args": {
+        "type": "c++"
+    }
+}, {
+    "caption": "Tmpl: Create java",
+    "command": "sublime_tmpl",
+    "args": {
+        "type": "java"
+    }
+}]

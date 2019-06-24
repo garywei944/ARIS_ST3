@@ -1,0 +1,11 @@
+{
+	"enable_table_editor": true,
+	"ignored_packages":
+	[
+		"HTML-CSS-JS Prettify",
+		"Markdown",
+		"Vintage"
+	],
+	"tab_size": 4,
+	"theme": "Default.sublime-theme"
+}
