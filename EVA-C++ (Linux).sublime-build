@@ -1,0 +1,4 @@
+{
+    "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -o \"$file_base_name\" && gnome_terminal -e 'bash -c \"${file_path}/${file_base_name}; read line; exec bash\"'",
+    "selector": "source.c, source.c++"
+}

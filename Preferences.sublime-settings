@@ -2,6 +2,7 @@
 	"enable_table_editor": true,
 	"ignored_packages":
 	[
+		"Codecs33",
 		"HTML-CSS-JS Prettify",
 		"Markdown",
 		"Vintage"

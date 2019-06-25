@@ -1,7 +1,4 @@
 {
     "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -o \"$file_base_name\" && start cmd /c \"${file_path}/${file_base_name} & pause\"",
-    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:?(.*)$",
-    "working_dir": "${file_path}",
-    "encoding": "cp936",
     "selector": "source.c, source.c++"
 }
