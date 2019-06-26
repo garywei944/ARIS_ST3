@@ -1,0 +1,11 @@
+{
+    "disable_keymap_actions": false, // "all"; "html,css"
+    "enable_project_variables": true, // ${project_base_name}, ${project_path} and ${platform}
+    "enable_file_variables_on_save": true, // ${saved_filename}, ${saved_filepath} on save file
+    "date_format" : "%Y-%m-%d %H:%M:%S",
+    "attr": {
+        "author": "garywei944",
+        "email": "33930674+garywei944@users.noreply.github.com",
+        "link": "https://github.com/garywei944"
+    }
+}

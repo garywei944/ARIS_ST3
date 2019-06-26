@@ -1,6 +1,12 @@
 # EVA_ST3
 ## Description
-Sublime Text 3 User Configuration Folder "Sublime Text 3/Packages/User". Custom collection of Sublime Text packages.
+Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol.io/installation) is indispensable.
+
+## Installation
+1. Click the `Preferences` > `Browse Packages…` menu
+2. Delete `User` Folder
+3. Download or clone the whole repository and rename it `User`
+4. Restart Sublime Text 3 and the packages will be installed automately.
 
 ## Packages
 ### Function Enhancement
@@ -19,6 +25,7 @@ Sublime Text 3 User Configuration Folder "Sublime Text 3/Packages/User". Custom 
 * SublimeREPL
 * SublimeTmpl
 * Terminal
+* TodoReview
 * View In Browser
 
 ### Git
@@ -37,6 +44,7 @@ Sublime Text 3 User Configuration Folder "Sublime Text 3/Packages/User". Custom 
 * CTags
 * DocBlockr
 * HTML-CSS-JS Prettify
+* Pretty JSON
 * SublimeAStyleFormatter
 * SublimeCodeIntel
 * TrailingSpaces
