@@ -26,6 +26,7 @@
 		"GitGutter",
 		"Github Tools",
 		"Gitignore",
+		"HexViewer",
 		"HTML-CSS-JS Prettify",
 		"JavaIME",
 		"JSLint",
@@ -53,6 +54,7 @@
 		"SublimeTmpl",
 		"Table Editor",
 		"Terminal",
+		"TerminalView",
 		"TodoReview",
 		"TrailingSpaces",
 		"View In Browser"

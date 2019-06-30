@@ -15,6 +15,7 @@ Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol
 * Codecs33
 * ConvertToUTF8
 * FileDiffs
+* HexViewer
 * Package Control
 * PlainTasks
 * Preferences Editor
@@ -25,6 +26,7 @@ Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol
 * SublimeREPL
 * SublimeTmpl
 * Terminal
+* TerminalView
 * TodoReview
 * View In Browser
 

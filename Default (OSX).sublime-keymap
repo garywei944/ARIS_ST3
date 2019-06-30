@@ -5,7 +5,7 @@
         "command": "delete_trailing_spaces"
     },
 
-    // Markdown Preview in Broswer
+    // Markdown Preview in Broswer.
     {
         "keys": ["super+shift+m"],
         "command": "markdown_preview",
@@ -13,5 +13,11 @@
             "target": "browser",
             "parser": "markdown"
         }
+    },
+
+    // Terminal View
+    {
+        "keys": ["ctrl+shift+t"],
+        "command": "terminal_view_open"
     }
 ]
