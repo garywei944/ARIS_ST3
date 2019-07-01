@@ -4,6 +4,8 @@
 	"https_proxy": "127.0.0.1:8118",
 	"in_process_packages":
 	[
+		"Codecs33",
+		"TerminalView"
 	],
 	"installed_packages":
 	[
@@ -57,6 +59,7 @@
 		"TerminalView",
 		"TodoReview",
 		"TrailingSpaces",
-		"View In Browser"
+		"View In Browser",
+		"wxapp"
 	]
 }

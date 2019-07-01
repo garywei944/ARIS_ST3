@@ -82,3 +82,6 @@ Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol
 * SublimeLinter-contrib-htmlhint
 * SublimeLinter-csslint
 * SublimeLinter-jshint
+
+#### Wechat Mini Program
+* wxapp
