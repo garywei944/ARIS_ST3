@@ -1,4 +1,4 @@
 {
-  "terminal": "C:\\Windows\\system32\\cmd.exe",
-  "parameters": ["/START", "%CWD%"]
+    "terminal": "C:\\Program Files\\Git\\bin\\sh.exe",
+    "parameters": ["--cd=%CWD%"]
 }
