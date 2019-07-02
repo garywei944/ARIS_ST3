@@ -20,7 +20,6 @@ Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol
 * PlainTasks
 * Preferences Editor
 * ReadmePlease
-* Search Stack Overflow
 * SideBarEnhancements
 * SFTP
 * SublimeREPL
@@ -60,9 +59,6 @@ Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol
 
 #### Java
 * JavaIME
-
-#### JavaScript
-* JSLint
 
 #### LaTex
 * LaTeXTools
