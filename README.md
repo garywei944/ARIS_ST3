@@ -65,7 +65,6 @@ Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol
 
 #### Markdown
 * MarkdownEditing
-* MarkdownLivePreview
 * MarkdownPreview
 * OmniMarkupPreviewer
 * Table Editor
@@ -78,6 +77,9 @@ Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol
 * SublimeLinter-contrib-htmlhint
 * SublimeLinter-csslint
 * SublimeLinter-jshint
+
+#### VBScript
+* VBScript
 
 #### Wechat Mini Program
 * wxapp
