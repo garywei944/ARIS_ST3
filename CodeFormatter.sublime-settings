@@ -24,7 +24,7 @@
     },
 
     "codeformatter_js_options": {
-        "syntaxes": "javascript,json", // Syntax names which must process JS formatter
+        "syntaxes": "javascript,json, json (sublime)", // Syntax names which must process JS formatter
         "format_on_save": false, // Format on save. Either a boolean (true/false) or a string regexp tested on filename. Example : "^((?!.min.|vendor).)*$"
         "indent_size": 4, // indentation size
         "indent_char": " ", // Indent character

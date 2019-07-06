@@ -36,6 +36,18 @@
         }]
     },
 
+    // New C File
+    {
+        "keys": ["ctrl+alt+shift+c"],
+        "command": "sublime_tmpl",
+        "args": {
+            "type": "c"
+        },
+        "context": [{
+            "key": "sublime_tmpl.c"
+        }]
+    },
+
     // New C++ File
     {
         "keys": ["alt+shift+c"],
