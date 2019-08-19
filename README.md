@@ -1,4 +1,4 @@
-# EVA_ST3
+# ARIS_ST3
 ## Description
 Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol.io/installation) is indispensable.
 
