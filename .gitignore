@@ -8,3 +8,5 @@ Package Control.ca-certs/
 *.last-run
 *cache.json
 *ca-bundle*
+*.sublime-project
+*.sublime-workspace

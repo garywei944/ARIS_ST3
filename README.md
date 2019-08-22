@@ -21,7 +21,6 @@ Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol
 * Preferences Editor
 * ReadmePlease
 * SideBarEnhancements
-* SFTP
 * SublimeREPL
 * SublimeTmpl
 * Terminal
