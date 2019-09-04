@@ -1,7 +1,5 @@
 {
 	"bootstrapped": true,
-	"http_proxy": "127.0.0.1:8118",
-	"https_proxy": "127.0.0.1:8118",
 	"in_process_packages":
 	[
 		"Codecs33",
@@ -37,7 +35,6 @@
 		"OmniMarkupPreviewer",
 		"Package Control",
 		"PlainTasks",
-		"Preferences Editor",
 		"Pretty JSON",
 		"R-Box",
 		"ReadmePlease",
