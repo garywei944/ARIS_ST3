@@ -24,7 +24,6 @@ Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol
 * SublimeREPL
 * SublimeTmpl
 * Terminal
-* TerminalView
 * TodoReview
 * View In Browser
 

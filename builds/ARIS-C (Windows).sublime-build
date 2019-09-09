@@ -1,0 +1,4 @@
+{
+    "shell_cmd": "gcc -Wall \"$file\" -o \"$file_base_name\" && start cmd /c \"${file_path}/${file_base_name} & pause\"",
+    "selector": "source.c, source.c++"
+}

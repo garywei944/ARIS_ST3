@@ -3,7 +3,6 @@
 	"in_process_packages":
 	[
 		"Codecs33",
-		"TerminalView"
 	],
 	"installed_packages":
 	[
@@ -49,7 +48,6 @@
 		"SublimeTmpl",
 		"Table Editor",
 		"Terminal",
-		"TerminalView",
 		"TodoReview",
 		"TrailingSpaces",
 		"VBScript",
