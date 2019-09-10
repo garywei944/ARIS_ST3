@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Codecs33",
 	],
 	"installed_packages":
 	[
@@ -12,7 +11,6 @@
 		"All Autocomplete",
 		"BracketHighlighter",
 		"C Improved",
-		"Codecs33",
 		"CodeFormatter",
 		"Color Highlighter",
 		"ColorPicker",

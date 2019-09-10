@@ -12,7 +12,6 @@ Custom configuration of Sublime Text 3. [Package Control](https://packagecontrol
 ### Function Enhancement
 * A File Icon
 * AdvancedNewFile
-* Codecs33
 * ConvertToUTF8
 * FileDiffs
 * HexViewer
