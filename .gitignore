@@ -10,3 +10,4 @@ Package Control.ca-certs/
 *ca-bundle*
 *.sublime-project
 *.sublime-workspace
+.SublimeREPLHistory
