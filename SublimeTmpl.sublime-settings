@@ -1,11 +1,11 @@
 {
     "c": {
-        "syntax": "Packages/C Improved/C Improved.tmLanguage",
+        "syntax": "C Improved.tmLanguage",
         "extension": "c"
     },
-    "c++": {
-        "syntax": "Packages/C Improved/C Improved.tmLanguage",
-        "extension": "cpp"
+    "h": {
+        "syntax": "C++.sublime-syntax",
+        "extension": "h"
     },
     "disable_keymap_actions": false, // "all"; "html,css"
     "enable_project_variables": true, // ${project_base_name}, ${project_path} and ${platform}

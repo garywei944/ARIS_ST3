@@ -21,6 +21,7 @@ Custom configuration of Sublime Text 3.
 ### Function Enhancement
 * A File Icon
 * AdvancedNewFile
+* Codecs33
 * ConvertToUTF8
 * FileDiffs
 * HexViewer
@@ -62,6 +63,8 @@ Custom configuration of Sublime Text 3.
 
 ### C/C++
 * C Improved
+* CMake
+* CMakeBuilder
 
 #### Java
 * JavaIME

@@ -18,6 +18,13 @@
                 "type": "c++"
             }
         }, {
+            "id": "h",
+            "caption": "C/C++ Head",
+            "command": "sublime_tmpl",
+            "args": {
+                "type": "h"
+            }
+        }, {
             "id": "java",
             "caption": "Java",
             "command": "sublime_tmpl",

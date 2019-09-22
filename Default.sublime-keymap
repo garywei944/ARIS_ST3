@@ -58,5 +58,17 @@
         "context": [{
             "key": "sublime_tmpl.c++"
         }]
+    },
+
+    // New C/C++ Head File
+    {
+        "keys": ["alt+shift+h"],
+        "command": "sublime_tmpl",
+        "args": {
+            "type": "h"
+        },
+        "context": [{
+            "key": "sublime_tmpl.h"
+        }]
     }
 ]
