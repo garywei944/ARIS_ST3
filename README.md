@@ -1,14 +1,21 @@
-# ARIS_ST3
+# Ær1S_ST3
 ## Description
 Custom configuration of Sublime Text 3. 
-####**[Package Control](https://packagecontrol.io/installation) is indispensable.**
+####***[Package Control](https://packagecontrol.io/installation) is indispensable.***
 
 ## Installation
 1. Click the `Preferences` > `Browse Packages…` menu
 2. Delete `User` Folder
 3. Download or clone the whole repository and rename it `User`
 4. Restart Sublime Text 3 and the packages will be installed automately.  
-***If error happens during installation, restart ST3 and it will be fixed automately.***
+***If error happens during installation, restart ST3 several times and it will be fixed automately.***
+
+### Optional Installation
+***Make sure** you have `pip` and `npm`(Node.js) command works with terminal*  
+  
+1. Open a terminal and cd to `User`
+2. Run **`chmod +x init.sh && sudo ./init.sh`**  
+*It will automatically configure macOS specific settings and install necessary dependency packages.*
 
 ## Usage
 1. On macOS, `Terminal` opens with `iTerm2` by default.  
