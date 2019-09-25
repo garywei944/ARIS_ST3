@@ -1,7 +1,7 @@
 # Ær1S_ST3
 ## Description
 Custom configuration for Sublime Text 3.  
-####***[Package Control](https://packagecontrol.io/installation) is indispensable.***
+#### ***[Package Control](https://packagecontrol.io/installation) is indispensable.***
 
 ## Installation
 1. Click the `Preferences` > `Browse Packages…` menu
