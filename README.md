@@ -1,13 +1,14 @@
 # Ær1S_ST3
 ## Description
 Custom configuration for Sublime Text 3.  
-#### ***[Package Control](https://packagecontrol.io/installation) is indispensable.***
+#### ***[Package Control](https://packagecontrol.io) is indispensable.***
 
 ## Installation
-1. Click the `Preferences` > `Browse Packages…` menu
-2. Delete `User` Folder
-3. Download or clone the whole repository and rename it `User`
-4. Restart Sublime Text 3 and the packages will be installed automately.  
+1. ***(IMPORTANT) Install [Package Control](https://packagecontrol.io/installation)***
+2. Click the `Preferences` > `Browse Packages…` menu
+3. Delete `User` Folder
+4. Download or clone the whole repository and rename it to `User`
+5. Restart Sublime Text 3 and the packages will be installed automately.  
 ***If error happens during installation, restart ST3 several times and it will be fixed automately.***
 
 ### Optional Installation
