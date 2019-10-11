@@ -1,0 +1,37 @@
+[{
+    "id": "sublimetmpl",
+    "caption": "New File (SublimeTmpl)",
+    "children": [{
+        "id": "c",
+        "caption": "C",
+        "command": "sublime_tmpl",
+        "args": {
+            "type": "c",
+            "paths": []
+        }
+    }, {
+        "id": "c++",
+        "caption": "C++",
+        "command": "sublime_tmpl",
+        "args": {
+            "type": "c++",
+            "paths": []
+        }
+    }, {
+        "id": "h",
+        "caption": "C/C++ Head",
+        "command": "sublime_tmpl",
+        "args": {
+            "type": "h",
+            "paths": []
+        }
+    }, {
+        "id": "java",
+        "caption": "Java",
+        "command": "sublime_tmpl",
+        "args": {
+            "type": "java",
+            "paths": []
+        }
+    }]
+}]
