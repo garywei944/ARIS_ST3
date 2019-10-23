@@ -77,7 +77,9 @@ Custom configuration for Sublime Text 3.
 * JavaIME
 
 #### LaTex
+* LaTex-cwl
 * LaTeXTools
+* LaTeXYZ
 
 #### Markdown
 * MarkdownEditing
