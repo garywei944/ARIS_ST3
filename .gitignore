@@ -1,8 +1,14 @@
-/Package Control.last-run
-/Package Control.ca-list
-/Package Control.ca-bundle
-/Package Control.system-ca-bundle
-/Package Control.ca-certs/
+*
+!/Default
+!/Default/*
+!/User
+!/User/*
+
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.ca-certs/
 
 *.cache
 *.last-run
@@ -11,4 +17,4 @@
 *.sublime-workspace
 *.SublimeREPLHistory
 
-/Color\ Highlighter
+/User/Color\ Highlighter

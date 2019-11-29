@@ -1,4 +1,0 @@
-{
-    "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -o \"$file_base_name\" && start cmd /c \"\"${file_path}/${file_base_name}\" & pause\"",
-    "selector": "source.c, source.c++"
-}
