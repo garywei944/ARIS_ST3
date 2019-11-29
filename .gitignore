@@ -3,6 +3,7 @@
 !/Default/*
 !/User
 !/User/*
+!README.md
 
 Package Control.last-run
 Package Control.ca-list
