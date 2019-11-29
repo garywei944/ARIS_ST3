@@ -1,5 +1,4 @@
 {
-  // "terminal": "D:\\Program Files\\cmder\\Cmder.exe",
-  // "parameters": ["/START", "%CWD%"]
-  "terminal": "bash"
+    "terminal": "D:\\Program Files\\cmder\\Cmder.exe",
+    "parameters": ["/START", "%CWD%"]
 }
