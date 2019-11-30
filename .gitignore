@@ -1,21 +1,17 @@
-*
+/*
 !/Default
 !/Default/*
 !/User
 !/User/*
-!README.md
-
-Package Control.last-run
-Package Control.ca-list
-Package Control.ca-bundle
-Package Control.system-ca-bundle
-Package Control.ca-certs/
+/User/Color\ Highlighter
+!/.gitignore
+!/README.md
 
 *.cache
 *.last-run
 *cache.json
 *ca-bundle*
+*ca-certs*
+*ca-list*
 *.sublime-workspace
 *.SublimeREPLHistory
-
-/User/Color\ Highlighter
