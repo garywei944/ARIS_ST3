@@ -6,25 +6,34 @@ Custom configuration for Sublime Text 3.
 ## Installation
 1. ***(IMPORTANT) Install [Package Control](https://packagecontrol.io/installation)***
 2. Click the `Preferences` > `Browse Packages…` menu
-3. Delete `User` Folder
-4. Download or clone the whole repository and rename it to `User`
-5. Restart Sublime Text 3 and the packages will be installed automately.  
+3. Change to last level directory, usually named `Sublime Text 3`
+4. Delete `Packages` Folder
+5. Download or clone the whole repository and rename it to `Packages`
+```
+git clone git@github.com:garywei944/aris_st3.git Packages
+```
+6. Restart Sublime Text 3 and the packages will be installed automately.  
 ***If error happens during installation, restart ST3 several times and it will be fixed automately.***
 
-### Optional Installation
-***Make sure** you have `pip` and `npm`(Node.js) command works with terminal*  
-  
-1. Open a terminal and cd to `User`
-2. Run **`chmod +x init.sh && sudo ./init.sh`**  
-*It will automatically configure macOS specific settings and install necessary dependency packages.*
+## Dependencies
+### Environments
+* `git`
+* Python and `pip` (or Python 3 and `pip3`)
+* **Node.js**(`npm`)
+* **Tex Live**(*Windows* and *Linux*) or **MacTex**(*Mac OS*)
 
-## Usage
-1. On macOS, `Terminal` opens with `iTerm2` by default.  
-***To disable using `iTerm2`, simply remove `./Terminal (OSX).sublime-settings`.***
-2. On Linux, `Terminal` opens with `/usr/bin/gnome-terminal` by default.  
-***To use a different shell, help yourself by making a new `.sublime-build` file.***
+### Packages
+* **CodeIntel** (`pip3 install --upgrade --pre CodeIntel`)
+* **SublimeLinter-jshint** (`npm install -g jshint`)
+* **SublimeLinter-csslint** (`npm install -g csslint`)
+* **xg-htmlhint** (`npm install -g xg-htmlhint`)
 
-## Packages
+### Terminals
+*These terminals are optional, and can be changed via `./User/Terminal (<System>).sublime-settings`*
+* **Windows**: *Cmder*
+* **Mac OS**: *iTerm2*
+
+## Sublime Packages
 ### Function Enhancement
 * A File Icon
 * AdvancedNewFile
@@ -34,10 +43,9 @@ Custom configuration for Sublime Text 3.
 * HexViewer
 * Package Control
 * PlainTasks
-* Preferences Editor
+* *~~Preferences Editor~~ (Temporary unavailable)*
 * ReadmePlease
 * SideBarEnhancements
-* SublimeREPL
 * SublimeTmpl
 * Terminal
 * TodoReview
@@ -61,11 +69,10 @@ Custom configuration for Sublime Text 3.
 * HTML-CSS-JS Prettify
 * Pretty JSON
 * SublimeAStyleFormatter
-* SublimeCodeIntel
 * TrailingSpaces
 
 ### Language-Spec
-#### Essentials
+#### HTML
 * Emmet
 
 ### C/C++
@@ -83,9 +90,15 @@ Custom configuration for Sublime Text 3.
 
 #### Markdown
 * MarkdownEditing
+* MarkdownLivePreview
 * MarkdownPreview
 * OmniMarkupPreviewer
 * Table Editor
+
+#### Python
+* Anaconda
+* SublimeCodeIntel
+* SublimeREPL
 
 #### R
 * R-Box
