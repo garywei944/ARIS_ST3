@@ -20,6 +20,7 @@ git clone git@github.com:garywei944/aris_st3.git Packages
 6. Restart Sublime Text 3 and the packages will be installed automately.  
 ***If error occurs during installation, restart ST3 several times and it will be fixed automatically.***
 7. There is some personal information at `./User/SublimeTmpl.sublime-settings`, please change it if you want to use `SublimeTmpl`.
+8. Install the dependencies followed if needed.
 
 ## Dependencies
 Most of the dependencies are not necessary, but some packages would not work with full features then.
