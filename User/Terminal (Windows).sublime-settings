@@ -1,4 +1,6 @@
 {
-    "terminal": "Cmder.exe",
-    "parameters": ["/START", "%CWD%"]
+    // "terminal": "Cmder.exe",
+    // "parameters": ["/START", "%CWD%"]
+
+    "terminal": "cmd"
 }
