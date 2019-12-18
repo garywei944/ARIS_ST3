@@ -25,7 +25,7 @@ git clone git@github.com:garywei944/aris_st3.git Packages
 ## Dependencies
 Most of the dependencies are not necessary, but some packages may not work with full features then.
 ### Environments
-* [`git`](https://git-scm.com/)
+* [**Git**](https://git-scm.com/)(`git`)
 * [**Python**](https://www.python.org/) and `pip` (or **Python 3** and `pip3`)
 * [**Node.js**](https://nodejs.org/en/)(`npm`)
 * [**Tex Live**](https://www.tug.org/texlive/)(*Windows* and *Linux*) or [**MacTex**](http://www.tug.org/mactex/)(*Mac OS*)
