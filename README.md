@@ -1,12 +1,12 @@
 # Ær1S_ST3
 ## Description
-Custom configuration for Sublime Text 3. It sets up basic configurations for sublime text 3 and all packages would be installed automatically, supporting for several popular languages includes C/C++, Java, JavaScript, LaTex, Markdown, Python, etc. Also some other settings makes ST3 an IDE for all languages.  
+Custom configuration for Sublime Text 3. It sets up ST3 as the most powerful and fantastic IDE for all languages on all 3 popular operating systems. 
 #### ***[Package Control](https://packagecontrol.io) is indispensable.***
 
 ## Why you may need it?
-Sublime Text 3 is a fancy text editor that allows you to extend it with numerous powerful packages maintained by the community and configure it nicely as a coder but not as complicated as emacs or vim. Anyway it's my first love.  
+Sublime Text 3 is a powerful, concise, and graceful text editor that allows you to extend it with numerous fantastic packages maintained by the community and configure it nicely as a coder. At the meantime it's not as complicated as emacs or vim. Anyway it's my first love.  
   
-But trying out all popular packages and figuring out which are better, which are necessary and setting up the configuration to make it works as an IDE took me plenty of time. Same problem happens to everyone who works with a new editor. So if you're a beginner and want to try out popular packages people are using, clone the repository and give it a shoot.
+However, it's always hard to ice break. Trying out all popular packages, figuring out which are better, which are necessary, and setting up the configuration to make it works as an IDE took me plenty of time. Same problem happens to everyone who begins to use a new software. So if you're first to ST3 and want to try out fantastic packages people are using, clone the repository and give it a shoot.
 
 ## Usage
 1. ***(IMPORTANT) Install [Package Control](https://packagecontrol.io/installation)***
@@ -23,7 +23,7 @@ git clone git@github.com:garywei944/aris_st3.git Packages
 8. Install the dependencies followed if needed.
 
 ## Dependencies
-Most of the dependencies are not necessary, but some packages would not work with full features then.
+Most of the dependencies are not necessary, but some packages may not work with full features then.
 ### Environments
 * [`git`](https://git-scm.com/)
 * [Python](https://www.python.org/) and `pip` (or Python 3 and `pip3`)
