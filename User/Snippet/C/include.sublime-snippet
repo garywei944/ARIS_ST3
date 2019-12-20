@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#include <$0>
+]]></content>
+	<tabTrigger>arinc</tabTrigger>
+	<scope>source.c, source.c++</scope>
+	<description>#include &lt;...&gt;</description>
+</snippet>
