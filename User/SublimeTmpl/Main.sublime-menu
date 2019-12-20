@@ -19,7 +19,7 @@
             }
         }, {
             "id": "h",
-            "caption": "C/C++ Head",
+            "caption": "C/C++ Header File",
             "command": "sublime_tmpl",
             "args": {
                 "type": "h"

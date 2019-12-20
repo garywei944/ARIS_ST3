@@ -1,4 +1,0 @@
-{
-    "shell_cmd": "gcc -Wall -std=c99 \"$file\" -o \"$file_base_name\"",
-    "selector": "source.c"
-}

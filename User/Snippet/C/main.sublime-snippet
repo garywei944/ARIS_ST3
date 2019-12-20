@@ -4,7 +4,7 @@ int main(int argc, char *argv[]){$0
 	return 0;
 }
 ]]></content>
-	<tabTrigger>armain</tabTrigger>
+	<tabTrigger>main</tabTrigger>
 	<scope>source.c, source.c++</scope>
-	<description>main()</description>
+	<description>aris main()</description>
 </snippet>
