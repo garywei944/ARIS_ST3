@@ -1,4 +1,15 @@
 {
-    "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -o \"$file_base_name\" && \"$file_base_name\"",
-    "selector": "source.c++"
+    "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -o \"$file_base_name\" && \"./$file_base_name\"",
+    "selector": "source.c++",
+
+    "variants": [{
+        "name": "Windows",
+        "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -o \"$file_base_name\" && start cmd /c \"\"${file_path}/${file_base_name}\" & pause\""
+    }, {
+        "name": "OSX",
+        "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -o \"$file_base_name\" && \"$packages/User/Builds/aris_cpp_osx.sh\" \"${file_path}/${file_base_name}\""
+    }, {
+        "name": "Linux",
+        "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -o \"$file_base_name\" && gnome-terminal -e 'bash -c \"\\\"${file_path}/${file_base_name}\\\"; read line; exit\"'"
+    }]
 }
