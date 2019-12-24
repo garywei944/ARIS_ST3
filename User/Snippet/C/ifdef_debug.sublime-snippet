@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+#ifdef DEBUG$0
+#endif
+]]></content>
+	<tabTrigger>ifdb</tabTrigger>
+	<scope>source.c, source.c++</scope>
+	<description>DEBUG</description>
+</snippet>
