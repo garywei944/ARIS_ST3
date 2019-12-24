@@ -1,4 +1,12 @@
 {
-    "shell_cmd": "gcc -Wall -std=c99 \"$file\" -o \"$file_base_name\" && \"$file_base_name\"",
+    "windows": {
+        "shell_cmd": "gcc -Wall -std=c99 \"$file\" -o \"$file_base_name\" && start cmd /c \"\"${file_path}/${file_base_name}\" & pause\""
+    },
+    "osx":{
+        "shell_cmd": "gcc -Wall -std=c99 \"$file\" -o \"$file_base_name\" && \"$packages/User/Builds/aris_osx.sh\" \"${file_path}/${file_base_name}\""
+    },
+    "linux":{
+        "shell_cmd": "gcc -Wall -std=c99 \"$file\" -o \"$file_base_name\" && gnome-terminal -e 'bash -c \"\\\"${file_path}/${file_base_name}\\\"; read line; exit; exec bash\"'"
+    },
     "selector": "source.c"
 }
