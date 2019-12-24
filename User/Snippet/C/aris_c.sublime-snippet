@@ -3,7 +3,7 @@
 #include <stdio.h>$1
 
 int main(int argc, char *argv[]) {$0
-    return 0;
+	return 0;
 }
 ]]></content>
 	<tabTrigger>aris</tabTrigger>
