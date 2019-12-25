@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+freopen("a.in", "r", stdin);
+]]></content>
+	<tabTrigger>freo</tabTrigger>
+	<scope>source.c, source.c++</scope>
+	<description>reopen stdin to a.in</description>
+</snippet>
