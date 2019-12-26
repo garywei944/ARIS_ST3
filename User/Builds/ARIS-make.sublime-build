@@ -1,0 +1,30 @@
+{
+    "shell_cmd": "make",
+    "windows": {
+        "shell_cmd": "mingw32-make"
+    },
+    "working_dir": "$folder:$project_path:$file_path",
+    "selector": "source.makefile",
+    "syntax": "Packages/Makefile/Make Output.sublime-syntax",
+    "keyfiles": ["Makefile", "makefile"],
+
+    "variants": [{
+        "name": "clean",
+        "shell_cmd": "make clean",
+        "windows": {
+            "shell_cmd": "mingw32-make clean"
+        }
+    }, {
+        "name": "debug",
+        "shell_cmd": "make debug",
+        "windows": {
+            "shell_cmd": "mingw32-make debug"
+        }
+    }, {
+        "name": "run",
+        "shell_cmd": "make run",
+        "windows": {
+            "shell_cmd": "mingw32-make run"
+        }
+    }]
+}

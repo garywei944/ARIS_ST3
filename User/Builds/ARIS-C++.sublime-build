@@ -1,27 +1,50 @@
+// {
+//     "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -pthread -o \"$file_base_name\" && \"./${file_base_name}\"",
+//     "selector": "source.c++",
+//     "variants": [{
+//         "name": "Run in Terminal",
+//         "windows": {
+//             "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -pthread -o \"$file_base_name\" && start cmd /c \"\"${file_path}/${file_base_name}\" & pause\""
+//         },
+//         "osx": {
+//             "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -pthread -o \"$file_base_name\" && osascript \"$packages/User/Builds/aris_osx.applescript\" \"${file_path}\" \"./${file_base_name}\""
+//         },
+//         "linux": {
+//             "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -pthread -o \"$file_base_name\" && gnome-terminal -e 'bash -c \"\\\"${file_path}/${file_base_name}\\\"; read line; exit; exec bash\"'"
+//         }
+//     }, {
+//         "name": "DEBUG",
+//         "windows": {
+//             "shell_cmd": "g++ -Wall -std=c++11 -g -DDEBUG \"$file\" -pthread -o \"$file_base_name\" && start cmd /c \"\"${file_path}/${file_base_name}\" & pause\""
+//         },
+//         "osx": {
+//             "shell_cmd": "g++ -Wall -std=c++11 -g -DDEBUG \"$file\" -pthread -o \"$file_base_name\" && osascript \"$packages/User/Builds/aris_osx.applescript\" \"${file_path}\" \"./${file_base_name}\""
+//         },
+//         "linux": {
+//             "shell_cmd": "g++ -Wall -std=c++11 -g -DDEBUG \"$file\" -pthread -o \"$file_base_name\" && gnome-terminal -e 'bash -c \"\\\"${file_path}/${file_base_name}\\\"; read line; exit; exec bash\"'"
+//         }
+//     }]
+// }
+
 {
-    "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -pthread -o \"$file_base_name\" && \"./${file_base_name}\"",
-    "selector": "source.c++",
+    "shell_cmd": "make -f \"$packages/User/Builds/aris_cpp.make\"",
+    "windows": {
+        "shell_cmd": "mingw32-make -f \"$packages/User/Builds/aris_cpp.make\""
+    },
+    "selector": "source.c, source.c++",
+    "syntax": "Packages/Makefile/Make Output.sublime-syntax",
+
     "variants": [{
-        "name": "Run in Terminal",
+        "name": "debug",
+        "shell_cmd": "make -f \"$packages/User/Builds/aris_cpp.make\" debug",
         "windows": {
-            "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -pthread -o \"$file_base_name\" && start cmd /c \"\"${file_path}/${file_base_name}\" & pause\""
-        },
-        "osx": {
-            "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -pthread -o \"$file_base_name\" && osascript \"$packages/User/Builds/aris_osx.applescript\" \"${file_path}\" \"./${file_base_name}\""
-        },
-        "linux": {
-            "shell_cmd": "g++ -Wall -std=c++11 \"$file\" -pthread -o \"$file_base_name\" && gnome-terminal -e 'bash -c \"\\\"${file_path}/${file_base_name}\\\"; read line; exit; exec bash\"'"
+            "shell_cmd": "mingw32-make -f \"$packages/User/Builds/aris_cpp.make\""
         }
     }, {
-        "name": "DEBUG",
+        "name": "clean",
+        "shell_cmd": "make -f \"$packages/User/Builds/aris_cpp.make\" clean",
         "windows": {
-            "shell_cmd": "g++ -Wall -std=c++11 -DDEBUG \"$file\" -pthread -o \"$file_base_name\" && start cmd /c \"\"${file_path}/${file_base_name}\" & pause\""
-        },
-        "osx": {
-            "shell_cmd": "g++ -Wall -std=c++11 -DDEBUG \"$file\" -pthread -o \"$file_base_name\" && osascript \"$packages/User/Builds/aris_osx.applescript\" \"${file_path}\" \"./${file_base_name}\""
-        },
-        "linux": {
-            "shell_cmd": "g++ -Wall -std=c++11 -DDEBUG \"$file\" -pthread -o \"$file_base_name\" && gnome-terminal -e 'bash -c \"\\\"${file_path}/${file_base_name}\\\"; read line; exit; exec bash\"'"
+            "shell_cmd": "mingw32-make -f \"$packages/User/Builds/aris_cpp.make\""
         }
     }]
 }
