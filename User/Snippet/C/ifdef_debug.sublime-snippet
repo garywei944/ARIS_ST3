@@ -3,7 +3,7 @@
 #ifdef DEBUG$0
 #endif
 ]]></content>
-	<tabTrigger>ifdb</tabTrigger>
+	<tabTrigger>ifdefdebug</tabTrigger>
 	<scope>source.c, source.c++</scope>
 	<description>DEBUG</description>
 </snippet>
