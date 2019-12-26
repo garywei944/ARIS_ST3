@@ -7,7 +7,7 @@ on run argv
 			create window with default profile
 			select first window
 			tell the first window
-				tell current session to write text "cd " & item 1 of argv & "; clear; " & item 2 of argv & "; read line; exit"
+				tell current session to write text "cd " & item 1 of argv & "; clear; " & item 2 of argv & "; echo -n \"\nPress Enter to continue . . .\"; read line; exit"
 			end tell
 		end tell
 	else
@@ -15,7 +15,7 @@ on run argv
 			activate
 			select first window
 			tell the first window
-				tell current session to write text "cd " & item 1 of argv & "; clear; " & item 2 of argv & "; read line; exit"
+				tell current session to write text "cd " & item 1 of argv & "; clear; " & item 2 of argv & "; echo -n \"\nPress Enter to continue . . .\"; read line; exit"
 			end tell
 		end tell
 	end if
