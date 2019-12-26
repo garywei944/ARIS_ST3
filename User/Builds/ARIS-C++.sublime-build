@@ -28,27 +28,3 @@
         }
     }]
 }
-
-// Based on Makefile
-// {
-//     "shell_cmd": "make -f \"$packages/User/Builds/aris_cpp.make\"",
-//     "windows": {
-//         "shell_cmd": "mingw32-make -f \"$packages/User/Builds/aris_cpp.make\""
-//     },
-//     "selector": "source.c, source.c++",
-//     "syntax": "Packages/Makefile/Make Output.sublime-syntax",
-
-//     "variants": [{
-//         "name": "debug",
-//         "shell_cmd": "make -f \"$packages/User/Builds/aris_cpp.make\" debug",
-//         "windows": {
-//             "shell_cmd": "mingw32-make -f \"$packages/User/Builds/aris_cpp.make\""
-//         }
-//     }, {
-//         "name": "clean",
-//         "shell_cmd": "make -f \"$packages/User/Builds/aris_cpp.make\" clean",
-//         "windows": {
-//             "shell_cmd": "mingw32-make -f \"$packages/User/Builds/aris_cpp.make\""
-//         }
-//     }]
-// }
