@@ -38,7 +38,6 @@ Most of the dependencies are not necessary, but some packages may not work with 
 
 ### Terminals
 *These terminals are optional, and can be changed via `./User/Terminal (<System>).sublime-settings`*
-* **Windows**: [*Cmder*](https://cmder.net/)
 * **Mac OS**: [*iTerm2*](https://iterm2.com/)
 
 ## Sublime Packages
