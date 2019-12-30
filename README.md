@@ -35,6 +35,10 @@ Most of the dependencies are not necessary, but some packages may not work with 
 * **jshint** (`npm install -g jshint`) - SublimeLinter-jshint
 * **csslint** (`npm install -g csslint`) - SublimeLinter-csslint
 * **xg-htmlhint** (`npm install -g xg-htmlhint`) - SublimeLinter-contrib-htmlhint
+* [**ImageMagick**](https://imagemagick.org/script/download.php#windows) - LaTeXYZ
+* [**Ghostscript**](https://www.ghostscript.com/download/gsdnld.html) - LaTeXYZ  
+***Please manually add `../gs/gs<x.x.x>/bin` to the Path. Or LaTeXYZ won't work properly, see [this](https://github.com/SublimeText/LaTeXTools/issues/1148#issuecomment-308126813).***
+* [**SumatraPDF**](https://www.sumatrapdfreader.org/free-pdf-reader.html) - LaTeXTools
 
 ### Terminals
 *These terminals are optional, and can be changed via `./User/Terminal (<System>).sublime-settings`*
