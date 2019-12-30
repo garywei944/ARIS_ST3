@@ -34,11 +34,13 @@
         }
     }, {
         "name": "Run in WSL",
+        "shell_cmd": "echo Error: Only supported on Windows 10.",
         "windows": {
             "shell_cmd": "bash -c \"wslpath '$file' |xargs g++ -Wall -std=c++11 -pthread -o \\\"$file_base_name\\\" && \\\"./${file_base_name}\\\"\""
         }
     }, {
         "name": "Debug and Run in WSL",
+        "shell_cmd": "echo Error: Only supported on Windows 10.",
         "windows": {
             "shell_cmd": "bash -c \"wslpath '$file' |xargs g++ -Wall -std=c++11 -g -DDEBUG -pthread -o \\\"$file_base_name\\\" && \\\"./${file_base_name}\\\"\""
         }
