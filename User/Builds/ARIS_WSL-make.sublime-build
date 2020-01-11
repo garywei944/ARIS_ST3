@@ -1,0 +1,18 @@
+{
+    "shell_cmd": "bash -c \"make\"",
+    "working_dir": "$folder:$project_path:$file_path",
+    "selector": "source.makefile",
+    "syntax": "Packages/Makefile/Make Output.sublime-syntax",
+    "keyfiles": ["Makefile", "makefile"],
+
+    "variants": [{
+        "name": "clean",
+        "shell_cmd": "bash -c \"make clean\""
+    }, {
+        "name": "debug",
+        "shell_cmd": "bash -c \"make debug\""
+    }, {
+        "name": "run",
+        "shell_cmd": "bash -c \"make run\""
+    }]
+}

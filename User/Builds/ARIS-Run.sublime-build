@@ -1,0 +1,19 @@
+{
+    "shell_cmd": "\"./${file_base_name}\"",
+    "windows": {
+        "shell_cmd": "\"${file_base_name}\""
+    },
+    "selector": "source.c,source.c++",
+    "variants": [{
+        "name": "Terminal",
+        "windows": {
+            "shell_cmd": "start cmd /c \"\\\"${file_base_name}\\\" & pause\""
+        },
+        "osx": {
+            "shell_cmd": "osascript \"$packages/User/Builds/aris_osx.applescript\" \"${file_path}\" \"./${file_base_name}\""
+        },
+        "linux": {
+            "shell_cmd": "gnome-terminal -e 'bash -c \"\\\"${file_path}/${file_base_name}\\\"; read line; exit; exec bash\"'"
+        }
+    }]
+}
