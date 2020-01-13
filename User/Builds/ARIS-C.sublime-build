@@ -1,8 +1,8 @@
 {
-    "shell_cmd": "gcc -Wall -std=c99 \"$file\" -pthread -o \"$file_base_name\"",
+    "shell_cmd": "gcc -Wall -std=c99 \"${file}\" -pthread -o \"${file_base_name}\"",
     "selector": "source.c",
     "variants": [{
         "name": "Compile with -DDEBUG",
-        "shell_cmd": "gcc -Wall -std=c99 -g -DDEBUG \"$file\" -pthread -o \"$file_base_name\"",
+        "shell_cmd": "gcc -Wall -std=c99 -g -DDEBUG \"${file}\" -pthread -o \"${file_base_name}\"",
     }]
 }

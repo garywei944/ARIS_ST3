@@ -1,8 +1,0 @@
-{
-    "shell_cmd": "bash -c \"wslpath '$file' | xargs gcc -Wall -std=c99 -pthread -o \\\"$file_base_name\\\"\"",
-    "selector": "source.c",
-    "variants": [{
-        "name": "Compile with -DDEBUG",
-        "shell_cmd": "bash -c \"wslpath '$file' | xargs gcc -Wall -std=c99 -g -DDEBUG -pthread -o \\\"$file_base_name\\\"\"",
-    }]
-}

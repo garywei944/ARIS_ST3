@@ -1,0 +1,12 @@
+{
+    "windows": {
+        "shell_cmd": "gcc -Wall -std=c99 -g -DDEBUG \"${file}\" -pthread -o \"${file_base_name}\" && start cmd /c \"\"${file_base_name}\" & pause\""
+    },
+    "osx": {
+        "shell_cmd": "gcc -Wall -std=c99 -g -DDEBUG \"${file}\" -pthread -o \"${file_base_name}\" && osascript \"$packages/User/Builds/aris_osx.applescript\" \"${file_path}\" \"./${file_base_name}\""
+    },
+    "linux": {
+        "shell_cmd": "gcc -Wall -std=c99 -g -DDEBUG \"${file}\" -pthread -o \"${file_base_name}\" && gnome-terminal -e 'bash -c \"\\\"${file_path}/${file_base_name}\\\"; read line; exit; exec bash\"'"
+    },
+    "selector": "source.c"
+}
