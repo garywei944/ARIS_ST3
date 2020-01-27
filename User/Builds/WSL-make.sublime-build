@@ -6,7 +6,7 @@
     "keyfiles": ["Makefile", "makefile", "src/Makefile", "src/makefile"],
 
     "variants": [{
-            "name": "clean",
+            "name": "Clean",
             "shell_cmd": "bash -c \"make clean\""
         }
         // , {

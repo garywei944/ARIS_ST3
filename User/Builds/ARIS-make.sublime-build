@@ -9,7 +9,7 @@
     "keyfiles": ["Makefile", "makefile", "src/Makefile", "src/makefile"],
 
     "variants": [{
-            "name": "clean",
+            "name": "Clean",
             "shell_cmd": "make clean",
             "windows": {
                 "shell_cmd": "mingw32-make clean"
