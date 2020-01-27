@@ -6,13 +6,15 @@
     "keyfiles": ["Makefile", "makefile", "src/Makefile", "src/makefile"],
 
     "variants": [{
-        "name": "clean",
-        "shell_cmd": "bash -c \"make clean\""
-    }, {
-        "name": "debug",
-        "shell_cmd": "bash -c \"make debug\""
-    }, {
-        "name": "run",
-        "shell_cmd": "bash -c \"make run\""
-    }]
+            "name": "clean",
+            "shell_cmd": "bash -c \"make clean\""
+        }
+        // , {
+        //     "name": "debug",
+        //     "shell_cmd": "bash -c \"make debug\""
+        // }, {
+        //     "name": "run",
+        //     "shell_cmd": "bash -c \"make run\""
+        // }
+    ]
 }

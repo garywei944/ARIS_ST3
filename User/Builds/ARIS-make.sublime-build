@@ -9,22 +9,24 @@
     "keyfiles": ["Makefile", "makefile", "src/Makefile", "src/makefile"],
 
     "variants": [{
-        "name": "clean",
-        "shell_cmd": "make clean",
-        "windows": {
-            "shell_cmd": "mingw32-make clean"
+            "name": "clean",
+            "shell_cmd": "make clean",
+            "windows": {
+                "shell_cmd": "mingw32-make clean"
+            }
         }
-    }, {
-        "name": "debug",
-        "shell_cmd": "make debug",
-        "windows": {
-            "shell_cmd": "mingw32-make debug"
-        }
-    }, {
-        "name": "run",
-        "shell_cmd": "make run",
-        "windows": {
-            "shell_cmd": "mingw32-make run"
-        }
-    }]
+        // , {
+        //     "name": "debug",
+        //     "shell_cmd": "make debug",
+        //     "windows": {
+        //         "shell_cmd": "mingw32-make debug"
+        //     }
+        // }, {
+        //     "name": "run",
+        //     "shell_cmd": "make run",
+        //     "windows": {
+        //         "shell_cmd": "mingw32-make run"
+        //     }
+        // }
+    ]
 }
