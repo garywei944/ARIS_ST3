@@ -79,6 +79,7 @@ Most of the dependencies are not necessary, but some packages may not work with 
 * DocBlockr
 * HTML-CSS-JS Prettify
 * Pretty JSON
+* rainbow_csv
 * SublimeAStyleFormatter
 * TrailingSpaces
 
@@ -108,6 +109,7 @@ Most of the dependencies are not necessary, but some packages may not work with 
 
 #### Python
 * Anaconda
+* Python PEP8 Autoformat
 * SublimeCodeIntel
 * SublimeREPL
 
@@ -118,6 +120,7 @@ Most of the dependencies are not necessary, but some packages may not work with 
 * SublimeLinter
 * SublimeLinter-contrib-htmlhint
 * SublimeLinter-csslint
+* SublimeLinter-flake8
 * SublimeLinter-jshint
 
 #### VBScript

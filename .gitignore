@@ -4,6 +4,7 @@
 !/User
 !/User/*
 /User/Color\ Highlighter
+/User/rbql_table_index
 !/.gitignore
 !/README.md
 

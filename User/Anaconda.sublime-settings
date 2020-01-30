@@ -4,5 +4,6 @@
     "suppress_explicit_completions":true,
     "comlete_parameters":true,
     "swallow_startup_errors":true,
-    "anaconda_linting":false
+    "anaconda_linting":false,
+    "pep8":false
 }
