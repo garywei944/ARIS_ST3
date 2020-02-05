@@ -10,6 +10,7 @@
 			"selector": "text.tex.latex"
 		}
 	],
+	"font_size": 11,
 	"color_scheme": "Monokai.sublime-color-scheme",
 	"default_line_ending": "unix",
 	"disable_tab_abbreviations": true,
