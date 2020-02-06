@@ -87,10 +87,13 @@ Most of the dependencies are not necessary, but some packages may not work with 
 #### HTML
 * Emmet
 
-### C/C++
+#### C/C++
 * C Improved
 * CMake
 * CMakeBuilder
+
+#### Dockerfile
+* Dockerfile Syntax Highlighting
 
 #### Java
 * JavaIME
