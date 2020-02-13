@@ -44,6 +44,15 @@
         "command": "back_to_python_definition"
     },
 
+    // CTags
+    {
+        "command": "navigate_to_definition",
+        "keys": ["ctrl+q"]
+    }, {
+        "command": "jump_prev",
+        "keys": ["ctrl+e"]
+    },
+
     // New Java File
     {
         "keys": ["alt+shift+j"],
