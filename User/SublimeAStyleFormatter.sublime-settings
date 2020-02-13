@@ -25,7 +25,7 @@
         // "k/r" "stroustrup", "whitesmith", "banner", "gnu", "linux", "horstmann",
         // "1tbs", "otbs ", "google", "pico", "lisp", "python", "vtk", or null
         // for default.
-        "style": null,
+        "style": "google",
 
         // Tab options
         // "indent": Can be one of "spaces", "tab" "force-tab", "force-tab-x", or null
@@ -225,7 +225,7 @@
         // (e.g. 'else', 'catch', ...) from their immediately preceding closing brackets.
         // Closing header brackets are always broken with broken brackets, horstmann
         // rackets, indented blocks, and indented brackets.
-        "break-closing-brackets": false,
+        "break-closing-brackets": true,
 
         // Break "else if" header combinations into separate lines. This option has no effect
         // if keep-one-line-statements is used, the "else if" statements will remain as they are.
