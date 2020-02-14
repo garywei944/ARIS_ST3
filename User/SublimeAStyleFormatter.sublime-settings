@@ -353,14 +353,14 @@
     "options_c": {
         "use_only_additional_options": false,
         "additional_options_file": "",
-        "additional_options": []
+        "additional_options": ["--convert-tabs"]
     },
 
     // Language-specific for C++
     "options_c++": {
         "use_only_additional_options": false,
         "additional_options_file": "",
-        "additional_options": []
+        "additional_options": ["--convert-tabs"]
     },
 
     // Language-specific for Java
@@ -368,7 +368,7 @@
         "style": "java",
         "use_only_additional_options": false,
         "additional_options_file": "",
-        "additional_options": []
+        "additional_options": ["--convert-tabs"]
     },
 
     // Language-specific for C#
