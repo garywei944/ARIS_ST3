@@ -1,31 +1,61 @@
 {
-	"auto_complete_triggers":
-	[
-		{
-			"characters": "<",
-			"selector": "text.html"
-		},
-		{
-			"characters": "\\",
-			"selector": "text.tex.latex"
-		}
-	],
-	"color_scheme": "Monokai.sublime-color-scheme",
-	"default_line_ending": "unix",
-	"disable_tab_abbreviations": true,
-	"enable_table_editor": true,
-	"ensure_newline_at_eof_on_save": true,
-	"fallback_encoding": "UTF-8",
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
 		"Codecs33",
-		"Markdown",
-		"Vintage"
-	],
-	"open_files_in_new_window": false,
-	"tab_size": 4,
-	"theme": "Adaptive.sublime-theme",
-	"translate_tabs_to_spaces": false
+    "auto_complete_triggers": [{
+        "characters": "<",
+        "selector": "text.html"
+    }, {
+        "characters": "\\",
+        "selector": "text.tex.latex"
+    }],
+    "color_scheme": "Monokai.sublime-color-scheme",
+    "default_line_ending": "unix",
+    "disable_tab_abbreviations": true,
+    "enable_table_editor": true,
+    "ensure_newline_at_eof_on_save": true,
+    "fallback_encoding": "UTF-8",
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages": [
+        "Markdown",
+        "Vintage"
+    ],
+    "open_files_in_new_window": false,
+    "tab_size": 4,
+    "theme": "Adaptive.sublime-theme",
+    "translate_tabs_to_spaces": false,
+    "rulers": [
+        72,
+        79
+    ],
+    "word_wrap": true,
+    "wrap_width": 80,
+    "file_exclude_patterns": [
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.dylib",
+        "*.ncb",
+        "*.sdf",
+        "*.suo",
+        "*.pdb",
+        "*.idb",
+        ".DS_Store",
+        "*.class",
+        "*.psd",
+        "*.db",
+        "*.sublime-workspace"
+    ],
+    "folder_exclude_patterns": [
+        ".svn",
+        ".git",
+        ".hg",
+        "CVS",
+        "__pycache__"
+    ]
 }
