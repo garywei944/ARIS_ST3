@@ -4,7 +4,7 @@ Custom configuration for Sublime Text 3. It sets up ST3 as the most powerful and
 #### ***[Package Control](https://packagecontrol.io) is indispensable.***
 
 ## Why you may need it?
-Sublime Text 3 is a powerful, concise, and graceful text editor that allows you to extend it with numerous fantastic packages maintained by the community and configure it nicely as a coder. At the meantime it's not as complicated as emacs or vim. Anyway it's my first love.  
+Sublime Text 3 is a powerful, concise, and graceful text editor that allows you to extend it with numerous fantastic packages maintained by the community and configure them nicely as a Tech Geek. At the meantime it's not as complicated as emacs or vim. Anyway it's my first love.  
   
 However, it's always hard to ice break. Trying out all popular packages, figuring out which are better, which are necessary, and setting up the configuration to make it works as an IDE took me plenty of time. Same problem happens to everyone who begins to use a new software. So if you're first to ST3 and want to try out fantastic packages people are using, clone the repository and give it a shoot.
 
