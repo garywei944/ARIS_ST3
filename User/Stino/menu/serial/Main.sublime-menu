@@ -1,0 +1,65 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Serial Port",
+				"id": "stino_serial_port",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_serials",
+						"command": "stino_refresh_serials"
+					},
+					{"caption": "-"},
+					{
+						"caption": "/dev/cu.AEr1SBeatsSolo3-Wireles",
+						"id": "stino_serial_/dev/cu.AEr1SBeatsSolo3-Wireles",
+						"command": "stino_select_serial",
+						"args": {"serial_port": "/dev/cu.AEr1SBeatsSolo3-Wireles"},
+						"checkbox": true
+					},
+					{
+						"caption": "/dev/cu.AEr1SBeatsSolo3-SPPServ",
+						"id": "stino_serial_/dev/cu.AEr1SBeatsSolo3-SPPServ",
+						"command": "stino_select_serial",
+						"args": {"serial_port": "/dev/cu.AEr1SBeatsSolo3-SPPServ"},
+						"checkbox": true
+					},
+					{
+						"caption": "/dev/cu.AEr1SPill-SPPDev",
+						"id": "stino_serial_/dev/cu.AEr1SPill-SPPDev",
+						"command": "stino_select_serial",
+						"args": {"serial_port": "/dev/cu.AEr1SPill-SPPDev"},
+						"checkbox": true
+					},
+					{
+						"caption": "/dev/cu.Bluetooth-Incoming-Port",
+						"id": "stino_serial_/dev/cu.Bluetooth-Incoming-Port",
+						"command": "stino_select_serial",
+						"args": {"serial_port": "/dev/cu.Bluetooth-Incoming-Port"},
+						"checkbox": true
+					},
+					{
+						"caption": "/dev/cu.AEr1SPowerbeats3-SPPSer",
+						"id": "stino_serial_/dev/cu.AEr1SPowerbeats3-SPPSer",
+						"command": "stino_select_serial",
+						"args": {"serial_port": "/dev/cu.AEr1SPowerbeats3-SPPSer"},
+						"checkbox": true
+					},
+					{
+						"caption": "/dev/cu.AEr1SPowerbeats3-Wirele",
+						"id": "stino_serial_/dev/cu.AEr1SPowerbeats3-Wirele",
+						"command": "stino_select_serial",
+						"args": {"serial_port": "/dev/cu.AEr1SPowerbeats3-Wirele"},
+						"checkbox": true
+					}
+				]
+			}
+		]
+	}
+]
