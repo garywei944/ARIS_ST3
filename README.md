@@ -132,5 +132,8 @@ Most of the dependencies are not necessary, but some packages may not work with 
 #### Apple Script
 * AppleScript Extensions
 
+#### Arduino
+* Arduino-like IDE
+
 #### Wechat Mini Program
 * wxapp
