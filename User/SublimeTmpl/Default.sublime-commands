@@ -16,6 +16,12 @@
     "args": {
         "type": "h"
     }
+},{
+    "caption": "Tmpl: Create CMkaeLists.txt",
+    "command": "sublime_tmpl",
+    "args": {
+        "type": "cmake"
+    }
 }, {
     "caption": "Tmpl: Create Java",
     "command": "sublime_tmpl",

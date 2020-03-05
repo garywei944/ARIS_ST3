@@ -18,6 +18,14 @@
             "paths": []
         }
     }, {
+        "id": "cmake",
+        "caption": "CMake",
+        "command": "sublime_tmpl",
+        "args": {
+            "type": "cmake",
+            "paths": []
+        }
+    }, {
         "id": "h",
         "caption": "C/C++ Header File",
         "command": "sublime_tmpl",

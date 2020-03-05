@@ -17,6 +17,13 @@
             "args": {
                 "type": "c++"
             }
+        },{
+            "id": "cmake",
+            "caption": "CMake",
+            "command": "sublime_tmpl",
+            "args": {
+                "type": "cmake"
+            }
         }, {
             "id": "h",
             "caption": "C/C++ Header File",
