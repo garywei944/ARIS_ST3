@@ -1,0 +1,4 @@
+{
+    "shell_cmd": "bash -c \"javac '${file_base_name}.java' && 'java ${file_base_name}'\"",
+    "selector": "source.java"
+}

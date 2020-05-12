@@ -1,8 +1,0 @@
-{
-    "shell_cmd": "bash -c \"gcc -Wall -std=c99 \\\"${file_base_name}.c\\\" -pthread -o \\\"${file_base_name}\\\"\"",
-    "selector": "source.c",
-    "variants": [{
-        "name": "Compile with -DDEBUG",
-        "shell_cmd": "bash -c \"gcc -Wall -std=c99 -g -DDEBUG \\\"${file_base_name}.c\\\" -pthread -o \\\"${file_base_name}\\\"\"",
-    }]
-}
