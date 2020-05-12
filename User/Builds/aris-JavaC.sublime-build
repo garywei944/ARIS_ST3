@@ -1,4 +1,12 @@
 {
-    "shell_cmd": "javac \"${file_base_name}.java\" && \"java ${file_base_name}\"",
+    "windows": {
+        "shell_cmd": "javac \"${file}\" && start cmd /c \"java \"${file_base_name}\" & pause\""
+    },
+    "osx": {
+        "shell_cmd": "javac \"${file}\" && osascript \"$packages/User/Builds/aris_osx.applescript\" \"${file_path}\" \"java ${file_base_name}\""
+    },
+    "linux": {
+        "shell_cmd": "javac \"${file}\" && gnome-terminal -e 'bash -c \"java \\\"${file_path}/${file_base_name}\\\"; read line; exit; exec bash\"'"
+    },
     "selector": "source.java"
 }
