@@ -54,7 +54,6 @@ Most of the dependencies are not necessary, but some packages may not work with 
 * HexViewer
 * Package Control
 * PlainTasks
-* *~~Preferences Editor~~ (Temporary unavailable)*
 * ReadmePlease
 * SideBarEnhancements
 * SublimeTmpl
@@ -107,7 +106,6 @@ Most of the dependencies are not necessary, but some packages may not work with 
 * MarkdownEditing
 * MarkdownLivePreview
 * MarkdownPreview
-* OmniMarkupPreviewer
 * Table Editor
 
 #### Python
@@ -132,8 +130,10 @@ Most of the dependencies are not necessary, but some packages may not work with 
 #### Apple Script
 * AppleScript Extensions
 
-#### Arduino
-* Arduino-like IDE
-
 #### Wechat Mini Program
 * wxapp
+
+## Removed Packages
+* Arduino-like IDE
+* OmniMarkupPreviewer
+* Preferences Editor
