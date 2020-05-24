@@ -1,4 +1,5 @@
 // These settings override both User and Default settings for the Bash syntax
 {
-	"word_wrap": true
+	"word_wrap": true,
+	"wrap_width": 79
 }
