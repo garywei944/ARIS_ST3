@@ -2,6 +2,14 @@
     "id": "sublimetmpl",
     "caption": "New File (SublimeTmpl)",
     "children": [{
+        "id": "bash",
+        "caption": "Bash",
+        "command": "sublime_tmpl",
+        "args": {
+            "type": "bash",
+            "paths": []
+        }
+    }, {
         "id": "c",
         "caption": "C",
         "command": "sublime_tmpl",

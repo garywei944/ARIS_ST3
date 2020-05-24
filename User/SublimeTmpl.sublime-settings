@@ -1,4 +1,8 @@
 {
+    "bash": {
+        "syntax": "Bash.sublime-syntax",
+        "extension": ""
+    },
     "c": {
         "syntax": "C Improved.tmLanguage",
         "extension": "c"
