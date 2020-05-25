@@ -31,7 +31,7 @@ Most of the dependencies are not necessary, but some packages may not work with 
 * [**Tex Live**](https://www.tug.org/texlive/)(*Windows* and *Linux*) or [**MacTex**](http://www.tug.org/mactex/)(*Mac OS*)
 
 ### Packages
-* **CodeIntel** (`pip3 install --upgrade --pre CodeIntel`) - SublimeCodeIntel
+* **CodeIntel** (`pip install --upgrade --pre CodeIntel`) - SublimeCodeIntel
 * **jshint** (`npm install -g jshint`) - SublimeLinter-jshint
 * **csslint** (`npm install -g csslint`) - SublimeLinter-csslint
 * **xg-htmlhint** (`npm install -g xg-htmlhint`) - SublimeLinter-contrib-htmlhint
@@ -121,7 +121,6 @@ Most of the dependencies are not necessary, but some packages may not work with 
 * SublimeLinter
 * SublimeLinter-contrib-htmlhint
 * SublimeLinter-csslint
-* SublimeLinter-flake8
 * SublimeLinter-jshint
 
 #### VBScript
@@ -132,8 +131,3 @@ Most of the dependencies are not necessary, but some packages may not work with 
 
 #### Wechat Mini Program
 * wxapp
-
-## Removed Packages
-* Arduino-like IDE
-* OmniMarkupPreviewer
-* Preferences Editor
