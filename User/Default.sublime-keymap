@@ -48,10 +48,12 @@
     {
         "command": "navigate_to_definition",
         "keys": ["ctrl+q"]
-    }, {
-        "command": "jump_prev",
-        "keys": ["ctrl+e"]
     },
+
+    // {
+    //     "command": "jump_prev",
+    //     "keys": ["ctrl+e"]
+    // },
 
     // New Java File
     {
