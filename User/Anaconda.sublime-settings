@@ -5,5 +5,5 @@
     "comlete_parameters":true,
     "swallow_startup_errors":true,
     "anaconda_linting":false,
-    "pep8":false
+    "pep8":true
 }
