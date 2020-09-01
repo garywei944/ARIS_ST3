@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Codecs33"
 	],
 	"installed_packages":
 	[
@@ -44,7 +43,6 @@
 		"Package Control",
 		"PlainTasks",
 		"Pretty JSON",
-		"Python PEP8 Autoformat",
 		"R-Box",
 		"rainbow_csv",
 		"ReadmePlease",
