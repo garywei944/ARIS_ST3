@@ -1,4 +1,29 @@
 [
+    // Add multi cursor support
+    // {
+    //     "button": "button1",
+    //     "count": 1,
+    //     "modifiers": ["alt"],
+    //     "press_command": "drag_select",
+    //     "press_args": {
+    //         "additive": true
+    //     }
+    // },
+    {
+        "keys": ["ctrl+alt+up"],
+        "command": "select_lines",
+        "args": {
+            "forward": false
+        }
+    }, {
+        "keys": ["ctrl+alt+down"],
+        "command": "select_lines",
+        "args": {
+            "forward": true
+        }
+    },
+
+
     // Delete Trailing Space
     {
         "keys": ["ctrl+alt+t"],
