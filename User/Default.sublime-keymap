@@ -50,24 +50,24 @@
     },
 
     // Sublime CodeIntel
-    {
-        "keys": ["f5"],
-        "caption": "SublimeREPL:Python",
-        "command": "run_existing_window_command",
-        "args": {
-            "id": "repl_python_run",
-            "file": "config/Python/Main.sublime-menu"
-        }
-    }, {
-        "keys": ["alt+/"],
-        "command": "code_intel_auto_complete"
-    }, {
-        "keys": ["alt+right"],
-        "command": "goto_python_definition"
-    }, {
-        "keys": ["alt+left"],
-        "command": "back_to_python_definition"
-    },
+    // {
+    //     "keys": ["f5"],
+    //     "caption": "SublimeREPL:Python",
+    //     "command": "run_existing_window_command",
+    //     "args": {
+    //         "id": "repl_python_run",
+    //         "file": "config/Python/Main.sublime-menu"
+    //     }
+    // }, {
+    //     "keys": ["alt+/"],
+    //     "command": "code_intel_auto_complete"
+    // }, {
+    //     "keys": ["alt+right"],
+    //     "command": "goto_python_definition"
+    // }, {
+    //     "keys": ["alt+left"],
+    //     "command": "back_to_python_definition"
+    // },
 
     // CTags
     {
