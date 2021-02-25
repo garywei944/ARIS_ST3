@@ -22,6 +22,11 @@
             "forward": true
         }
     },
+    // SVG Preview
+    {
+        "keys": ["ctrl+alt+shift+v"],
+        "command": "svg_preview"
+    },
 
 
     // Delete Trailing Space
