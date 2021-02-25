@@ -4,5 +4,14 @@
     //    "modifiers": ["ctrl"],
     //    "command": "goto_python_definition",
     //    "press_command": "drag_select"
-    // }
+    // },
+
+    // Clickable URL
+    {
+        "button": "button1",
+        "count": 1,
+        "modifiers": ["alt"],
+        "command": "open_url_under_cursor",
+        "press_command": "drag_select",
+    }
 ]
