@@ -1,4 +1,4 @@
-# aris_st3
+# eva_st3
 ## Description
 Custom configuration for Sublime Text 3. It sets up ST3 as the most powerful and fantastic IDE for all languages on all 3 popular operating systems. 
 #### ***[Package Control](https://packagecontrol.io) is indispensable.***
