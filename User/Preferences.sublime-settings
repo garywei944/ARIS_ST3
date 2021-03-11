@@ -47,7 +47,6 @@
 		"CVS",
 		"__pycache__"
 	],
-	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -61,6 +60,7 @@
 		72,
 		80
 	],
+    "save_on_focus_lost": true,
 	"tab_size": 4,
 	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": false
