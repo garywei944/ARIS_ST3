@@ -60,7 +60,7 @@
 		72,
 		80
 	],
-    "save_on_focus_lost": true,
+	"save_on_focus_lost": true,
 	"tab_size": 4,
 	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": false
