@@ -10,7 +10,7 @@
 			"selector": "text.tex.latex"
 		}
 	],
-	"color_scheme": "Monokai.sublime-color-scheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"default_line_ending": "unix",
 	"disable_tab_abbreviations": true,
 	"enable_table_editor": true,
@@ -62,6 +62,6 @@
 		80
 	],
 	"tab_size": 4,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": false
 }
