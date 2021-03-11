@@ -1,0 +1,12 @@
+{
+    "windows": {
+        "shell_cmd": "start cmd /c \"lua \"${file}\" & pause\""
+    },
+    "osx": {
+        "shell_cmd": "osascript \"$packages/User/Builds/eva_osx.applescript\" \"${file_path}\" \"lua ${file}\""
+    },
+    "linux": {
+        "shell_cmd": "bash \"$packages/User/Builds/eva_linux.sh\" lua \"${file}\""
+    },
+    "selector": "source.lua"
+}

@@ -1,0 +1,12 @@
+{
+    "windows": {
+        "shell_cmd": "g++ -Wall -std=c++11 -g -DDEBUG \"${file}\" -pthread -o \"${file_base_name}\" && start cmd /c \"\"${file_base_name}\" & pause\""
+    },
+    "osx": {
+        "shell_cmd": "g++ -Wall -std=c++11 -g -DDEBUG \"${file}\" -pthread -o \"${file_base_name}\" && osascript \"$packages/User/Builds/eva_osx.applescript\" \"${file_path}\" \"./${file_base_name}\""
+    },
+    "linux": {
+        "shell_cmd": "g++ -Wall -std=c++11 -g -DDEBUG \"${file}\" -pthread -o \"${file_base_name}\" && bash \"$packages/User/Builds/eva_linux.sh\" \"${file_path}/${file_base_name}\""
+    },
+    "selector": "source.c++"
+}

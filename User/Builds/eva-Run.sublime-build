@@ -1,0 +1,12 @@
+{
+    "windows": {
+        "shell_cmd": "start cmd /c \"\"${file_base_name}\" && pause\""
+    },
+    "osx": {
+        "shell_cmd": "osascript \"$packages/User/Builds/eva_osx.applescript\" \"${file_path}\" \"./${file_base_name}\""
+    },
+    "linux": {
+        "shell_cmd": "bash \"$packages/User/Builds/eva_linux.sh\" \"${file_path}/${file_base_name}\""
+    },
+    "selector": "source.c, source.c++"
+}

@@ -1,0 +1,12 @@
+{
+    "windows": {
+        "shell_cmd": "start cmd /c \"clisp \"${file}\" & pause\""
+    },
+    "osx": {
+        "shell_cmd": "osascript \"$packages/User/Builds/eva_osx.applescript\" \"${file_path}\" \"clisp ${file}\""
+    },
+    "linux": {
+        "shell_cmd": "bash \"$packages/User/Builds/eva_linux.sh\" clisp \"${file}\""
+    },
+    "selector": "source.lisp"
+}

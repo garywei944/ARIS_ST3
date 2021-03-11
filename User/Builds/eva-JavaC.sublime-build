@@ -1,0 +1,12 @@
+{
+    "windows": {
+        "shell_cmd": "javac \"${file}\" && start cmd /c \"java \"${file_base_name}\" & pause\""
+    },
+    "osx": {
+        "shell_cmd": "javac \"${file}\" && osascript \"$packages/User/Builds/eva_osx.applescript\" \"${file_path}\" \"java ${file_base_name}\""
+    },
+    "linux": {
+        "shell_cmd": "javac \"${file}\" && bash \"$packages/User/Builds/eva_linux.sh\" java \"${file_base_name}\""
+    },
+    "selector": "source.java"
+}
