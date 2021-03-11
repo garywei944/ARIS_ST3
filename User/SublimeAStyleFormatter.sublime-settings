@@ -16,6 +16,7 @@
         "pde": "java",
         "apex": "java"
         */
+       "lua": "c",
     },
 
     // Please visit http://astyle.sourceforge.net/astyle.html for more information
