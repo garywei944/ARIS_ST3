@@ -15,7 +15,7 @@ However, it's always hard to ice break. Trying out all popular packages, figurin
 4. Delete `Packages` Folder
 5. Download or clone the whole repository and rename it to `Packages`
 ```
-git clone git@github.com:garywei944/aris_st3.git Packages
+git clone git@github.com:garywei944/eva_st3.git Packages
 ```
 6. Restart Sublime Text 3 and the packages will be installed automately.  
 ***If error occurs during installation, restart ST3 several times and it will be fixed automatically.***
