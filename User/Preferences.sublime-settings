@@ -1,13 +1,17 @@
 {
+	"added_words":
+	[
+		"F1"
+	],
 	"auto_complete_triggers":
 	[
 		{
 			"characters": "<",
-			"selector": "text.html"
+			"selector": "text.html",
 		},
 		{
 			"characters": "\\",
-			"selector": "text.tex.latex"
+			"selector": "text.tex.latex",
 		}
 	],
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
@@ -52,8 +56,12 @@
 	"ignored_packages":
 	[
 		"Markdown",
-		"Vintage"
+		"Vintage",
 	],
+	"mdpopups.sublime_user_lang_map":
+	{
+	},
+	"mdpopups.use_sublime_highlighter": true,
 	"open_files_in_new_window": false,
 	"rulers":
 	[
@@ -63,5 +71,5 @@
 	"save_on_focus_lost": true,
 	"tab_size": 4,
 	"theme": "Material-Theme-Darker.sublime-theme",
-	"translate_tabs_to_spaces": false
+	"translate_tabs_to_spaces": false,
 }

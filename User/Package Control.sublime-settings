@@ -12,7 +12,6 @@
 		"Anaconda",
 		"AppleScript Extensions",
 		"Autoprefixer",
-		"Babel",
 		"Bootstrap 3 Snippets",
 		"BracketHighlighter",
 		"C Improved",
@@ -47,7 +46,6 @@
 		"LaTeX-cwl",
 		"LaTeXTools",
 		"LaTeXYZ",
-		"LESS",
 		"lispindent",
 		"Lua Dev",
 		"MarkdownEditing",
@@ -80,6 +78,6 @@
 		"VBScript",
 		"View In Browser",
 		"WakaTime",
-		"wxapp"
-	]
+		"wxapp",
+	],
 }
