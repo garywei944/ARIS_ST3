@@ -72,4 +72,5 @@
 	"tab_size": 4,
 	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": false,
+	"font_size": 13,
 }

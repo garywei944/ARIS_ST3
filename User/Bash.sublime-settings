@@ -1,8 +1,9 @@
 {
 	"extensions":
 	[
-		"zsh-theme"
+		"zsh-theme",
+		".envrc",
 	],
 	"word_wrap": true,
-	"wrap_width": 80
+	"wrap_width": 80,
 }
